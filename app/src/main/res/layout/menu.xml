@@ -27,7 +27,7 @@
         android:background="@drawable/style_button_menu"
         android:fontFamily="@font/roboto_bold"
         android:padding="20dp"
-        android:text="Persegi"
+        android:text="Persegi Panjang"
         android:textColor="#000000" />
 
     <Button
