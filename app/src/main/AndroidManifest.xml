@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".lkpersegi"></activity>
-        <activity android:name=".vkubus" />
+        <activity android:name=".vbalok" />
         <activity android:name=".lksegitiga" />
         <activity android:name=".menu" />
         <activity android:name=".MainActivity">

@@ -9,7 +9,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-public class vkubus extends AppCompatActivity {
+public class vbalok extends AppCompatActivity {
     EditText PanjangBalok, LebarBalok, TinggiBalok;
     Button BtnHitung;
     TextView TextVolume;
@@ -17,7 +17,7 @@ public class vkubus extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.vkubus);
+        setContentView(R.layout.vbalok);
 
         PanjangBalok = (EditText) findViewById(R.id.PanjangBalok);
         LebarBalok = (EditText) findViewById(R.id.LebarBalok);

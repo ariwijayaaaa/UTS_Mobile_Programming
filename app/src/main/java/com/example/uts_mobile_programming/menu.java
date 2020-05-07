@@ -50,7 +50,7 @@ public class menu extends AppCompatActivity {
         btnKubus.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent kubus= new Intent(menu.this, vkubus.class);
+                Intent kubus= new Intent(menu.this, vbalok.class);
                 startActivity(kubus);
             }
         });
