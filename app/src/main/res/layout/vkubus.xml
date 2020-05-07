@@ -43,14 +43,15 @@
             android:textColor="#fff" />
 
         <EditText
-            android:id="@+id/editText"
+            android:id="@+id/PanjangBalok"
             android:layout_width="match_parent"
             android:layout_height="30dp"
             android:layout_marginTop="10dp"
             android:background="@drawable/style_button_menu"
             android:ems="10"
-            android:inputType="textPersonName"
-            android:text=""
+            android:fontFamily="@font/roboto"
+            android:inputType="number"
+            android:textAlignment="center"
             android:textColor="#222222" />
 
         <TextView
@@ -63,14 +64,13 @@
             android:textColor="#fff" />
 
         <EditText
-            android:id="@+id/editText2"
+            android:id="@+id/LebarBalok"
             android:layout_width="match_parent"
             android:layout_height="30dp"
             android:layout_marginTop="10dp"
             android:background="@drawable/style_button_menu"
             android:ems="10"
-            android:inputType="textPersonName"
-            android:text=""
+            android:inputType="number"
             android:textColor="#222222" />
 
         <TextView
@@ -83,18 +83,17 @@
             android:textColor="#fff" />
 
         <EditText
-            android:id="@+id/editText4"
+            android:id="@+id/TinggiBalok"
             android:layout_width="match_parent"
             android:layout_height="30dp"
             android:layout_marginTop="10dp"
             android:background="@drawable/style_button_menu"
             android:ems="10"
-            android:inputType="textPersonName"
-            android:text=""
+            android:inputType="number"
             android:textColor="#222222" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/BtnHitung"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -119,15 +118,17 @@
                 android:text="Volume "
                 android:textColor="#fff" />
 
-            <EditText
-                android:id="@+id/editText3"
+            <TextView
+                android:id="@+id/TextVolume"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="25dp"
+                android:layout_marginLeft="35dp"
                 android:layout_weight="1"
                 android:background="@drawable/style_button_menu"
-                android:ems="10"
-                android:inputType="textPersonName" />
+                android:fontFamily="@font/roboto"
+                android:textAlignment="center"
+                android:textSize="20dp" />
+
         </LinearLayout>
 
     </LinearLayout>
